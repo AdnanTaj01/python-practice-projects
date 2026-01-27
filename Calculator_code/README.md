@@ -25,12 +25,13 @@ python calculator.py
 2. Subtraction
 3. Multiplication
 4. Division
-Choose an operation (1/2/3/4): 2
 
-Enter first number: 22
+Choose an operation (1/2/3/4): 1
 
-Enter second number: 22
-Result: 0.0
+Enter first number: 11
+
+Enter second number: 11
+Result: 22.0
 
 Do you want to calculate again? (yes/no): yes
 
@@ -39,18 +40,48 @@ Do you want to calculate again? (yes/no): yes
 2. Subtraction
 3. Multiplication
 4. Division
+
+Choose an operation (1/2/3/4): 2
+
+Enter first number: 33
+
+Enter second number: 45
+Result: -12.0
+
+Do you want to calculate again? (yes/no): yes
+
+====== SMART CALCULATOR ======
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+
+Choose an operation (1/2/3/4): 4
+
+Enter first number: 44
+
+Enter second number: 0
+Result: 
+Error: Division by zero is not allowed.
+
+Do you want to calculate again? (yes/no): f
+
+Please type 'yes' or 'no'.
+
+Do you want to calculate again? (yes/no): yes
+
+====== SMART CALCULATOR ======
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+
 Choose an operation (1/2/3/4): 3
 
 Enter first number: 44
 
-Enter second number: 54
-Result: 2376.0
-
-Do you want to calculate again? (yes/no): y
-Please type 'yes' or 'no'.
-
-Do you want to calculate again? (yes/no): 7
-Please type 'yes' or 'no'.
+Enter second number: 56
+Result: 2464.0
 
 Do you want to calculate again? (yes/no): yes
 
@@ -59,14 +90,18 @@ Do you want to calculate again? (yes/no): yes
 2. Subtraction
 3. Multiplication
 4. Division
-Choose an operation (1/2/3/4): d
+
+Choose an operation (1/2/3/4): f
+
 Invalid choice! Please select again.
-Choose an operation (1/2/3/4): 4
 
-Enter first number: 34
+Choose an operation (1/2/3/4): 3
 
-Enter second number: 0
-Result: Error: Division by zero is not allowed.
+Enter first number: 3
+
+Enter second number: 3
+Result: 9.0
 
 Do you want to calculate again? (yes/no): no
+
 Thank you for using Smart Calculator!
