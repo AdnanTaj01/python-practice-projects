@@ -53,7 +53,7 @@ def perform_operation(choice, num1, num2):
 
 def ask_to_continue():
     while True:
-        answer = input("Do you want to calculate again? (yes/no): ").lower()
+        answer = input("\nDo you want to calculate again? (yes/no): ").lower()
         if answer in ['yes', 'no']:
             return answer == 'yes'
         print("Please type 'yes' or 'no'.")
@@ -64,8 +64,8 @@ def main():
         show_menu()
         choice = get_valid_choice()
 
-        num1 = get_valid_number("Enter first number: ")
-        num2 = get_valid_number("Enter second number: ")
+        num1 = get_valid_number("\nEnter first number: ")
+        num2 = get_valid_number("\nEnter second number: ")
 
         result = perform_operation(choice, num1, num2)
         print("Result:", result)
