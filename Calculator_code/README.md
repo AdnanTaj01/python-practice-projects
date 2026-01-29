@@ -1,6 +1,8 @@
 
-https://github.com/user-attachments/assets/6051b1cc-bac1-4951-8016-5405c30c8c28
 
+
+htt<img width="351" height="332" alt="calculator" src="https://github.com/user-attachments/assets/5654ac84-a270-4524-b0c4-eb1b9bbc24c5" />
+ps://github.com/user-attachments/assets/6051b1cc-bac1-4951-8016-5405c30c8c28
 
 
 # Smart Calculator (Python)
