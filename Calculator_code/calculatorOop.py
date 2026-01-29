@@ -68,6 +68,6 @@ class Calculator:
                 break
 
 
-# Program execution starts here
-calculator = Calculator()
-calculator.run()
+# # Program execution starts here
+# calculator = Calculator()
+# calculator.run()
