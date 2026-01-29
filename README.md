@@ -1,6 +1,11 @@
 # python-practice-projects
 A complete Python learning beginner to advanced projects covering logic building,  file handling, and OOP concepts.
 
+
+<img width="351" height="332" alt="calculator" src="https://github.com/user-attachments/assets/f74082b2-512e-4e94-8cf1-93cb5d345e4c" />
+
+
+
 # 🐍 Python Projects (Beginner to OOP)
 
 A complete Python learning repository containing **beginner to intermediate projects**, focused on **logic building, functions, file handling, and Object-Oriented Programming (OOP)**.
