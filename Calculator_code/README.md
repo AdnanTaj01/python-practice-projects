@@ -1,3 +1,8 @@
+
+https://github.com/user-attachments/assets/6051b1cc-bac1-4951-8016-5405c30c8c28
+
+
+
 # Smart Calculator (Python)
 
 Professional command-line calculator with input validation.
