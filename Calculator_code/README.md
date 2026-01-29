@@ -1,7 +1,5 @@
 
-htt<img width="351" height="332" alt="calculator" src="https://github.com/user-attachments/assets/5654ac84-a270-4524-b0c4-eb1b9bbc24c5" />
-
-ps://github.com/user-attachments/assets/6051b1cc-bac1-4951-8016-5405c30c8c28
+<img width="351" height="332" alt="calculator" src="https://github.com/user-attachments/assets/7b456f05-0fca-4be2-b77e-286b0a976a10" />
 
 
 https://github.com/user-attachments/assets/00749377-7d7a-44ee-b910-81d539eb23c2
