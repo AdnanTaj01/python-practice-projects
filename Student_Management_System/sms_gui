@@ -1,0 +1,81 @@
+import tkinter as tk
+from tkinter import messagebox
+from smsOop_gui import StudentManagementSystem
+
+
+class StudentGUI:
+    def __init__(self, root):
+        self.sms = StudentManagementSystem()
+        self.root = root
+        self.root.title("Student Management System")
+        self.root.geometry("450x500")
+
+        tk.Label(root, text="Student Management System",
+                 font=("Arial", 16, "bold")).pack(pady=10)
+
+        tk.Label(root, text="Student ID").pack()
+        self.sid = tk.Entry(root, width=30)
+        self.sid.pack()
+
+        tk.Label(root, text="Student Name").pack()
+        self.name = tk.Entry(root, width=30)
+        self.name.pack()
+
+        tk.Label(root, text="Student Age").pack()
+        self.age = tk.Entry(root, width=30)
+        self.age.pack()
+
+        btn_frame = tk.Frame(root)
+        btn_frame.pack(pady=10)
+
+        tk.Button(btn_frame, text="Add",
+                  width=12, command=self.add_student).grid(row=0, column=0, padx=5)
+
+        tk.Button(btn_frame, text="View",
+                  width=12, command=self.view_students).grid(row=0, column=1, padx=5)
+
+        tk.Button(btn_frame, text="Update",
+                  width=12, command=self.update_student).grid(row=1, column=0, padx=5, pady=5)
+
+        tk.Button(btn_frame, text="Delete",
+                  width=12, command=self.delete_student).grid(row=1, column=1, padx=5, pady=5)
+
+        self.output = tk.Text(root, height=10, width=50)
+        self.output.pack(pady=10)
+
+    def add_student(self):
+        sid = self.sid.get()
+        name = self.name.get()
+        age = self.age.get()
+
+        if not sid or not name or not age:
+            messagebox.showerror("Error", "All fields are required!")
+            return
+
+        result = self.sms.add_student(sid, name, age)
+        messagebox.showinfo("Result", result)
+
+    def view_students(self):
+        result = self.sms.view_students()
+        self.output.delete(1.0, tk.END)
+        self.output.insert(tk.END, result)
+
+    def update_student(self):
+        sid = self.sid.get()
+        name = self.name.get()
+        age = self.age.get()
+
+        result = self.sms.update_student(sid, name, age)
+        messagebox.showinfo("Result", result)
+
+    def delete_student(self):
+        sid = self.sid.get()
+        result = self.sms.delete_student(sid)
+        messagebox.showinfo("Result", result)
+
+
+# Run GUI
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = StudentGUI(root)
+    root.mainloop()
