@@ -1,4 +1,4 @@
-<img width="451" height="535" alt="Student_management_system" src="https://github.com/user-attachments/assets/8900e588-df9a-4b0c-a380-7c2c65854c70" /># python-practice-projects
+
 A complete Python learning beginner to advanced projects covering logic building,  file handling, and OOP concepts.
 
 
