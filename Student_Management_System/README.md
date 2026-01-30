@@ -1,3 +1,8 @@
+
+
+<img width="451" height="535" alt="Student_management_system" src="https://github.com/user-attachments/assets/e0e0f1c5-389e-4b6d-be08-b15864d82ee8" />
+
+
 # Student Management System (SMS) - Python CLI
 
 A simple **Command-Line Interface (CLI)** based Student Management System implemented in Python.  
