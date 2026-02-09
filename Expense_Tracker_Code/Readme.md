@@ -2,7 +2,6 @@
 
 A Professional Python Command-Line Expense Management System
 
----
 
 ## 📌 Overview
 
@@ -11,7 +10,7 @@ It allows users to efficiently manage daily expenses using a CSV-based storage s
 
 The project demonstrates clean architecture, modular design, file handling, and robust input validation — making it suitable for portfolio and GitHub showcase.
 
----
+
 
 ## ✨ Key Features
 
@@ -25,18 +24,18 @@ The project demonstrates clean architecture, modular design, file handling, and 
 * ✔ Corrupted row handling
 * ✔ Exception handling & validation
 
----
+
 
 ## 🏗 Project Architecture
 
-```
+
 Expense_Tracker/
 │
 ├── main.py
 ├── data/
 │   └── expenses.csv
 └── README.md
-```
+
 
 ### Design Principles Used
 
@@ -46,47 +45,12 @@ Expense_Tracker/
 * Clean input validation
 * Safe file operations
 
----
 
-## ⚙️ Technologies Used
 
-* Python 3.x
-* Built-in Modules:
-
-  * `csv`
-  * `os`
-  * `datetime`
-
-No external dependencies required.
-
----
-
-## 🚀 Installation & Usage
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/expense-tracker-cli.git
-cd expense-tracker-cli
-```
-
-### 2️⃣ Run Application
-
-```bash
-python main.py
-```
-
-On first run, the application automatically creates:
-
-```
-data/expenses.csv
-```
-
----
 
 ## 🖥 Application Menu
 
-```
+
 ========================================
 💰 EXPENSE TRACKER
 ========================================
@@ -96,22 +60,11 @@ data/expenses.csv
 4. Delete by Category
 5. Delete All
 6. Exit
-```
 
----
 
-## 📂 Data Storage Format
 
-The system uses CSV for lightweight storage.
 
-Example:
 
-```
-Date,Category,Amount,Description
-2026-02-09,Food,1200.0,Dinner with friends
-```
-
----
 
 ## 🛡 Error Handling Strategy
 
@@ -121,9 +74,9 @@ Date,Category,Amount,Description
 * Corrupted CSV row skipping
 * Safe confirmation before deletion
 
----
 
 ## 📊 Sample Output
+
 ========================================
 💰 EXPENSE TRACKER
 ========================================
