@@ -26,15 +26,7 @@ The project demonstrates clean architecture, modular design, file handling, and 
 
 
 
-## 🏗 Project Architecture
 
-
-Expense_Tracker/
-│
-├── main.py
-├── data/
-│   └── expenses.csv
-└── README.md
 
 
 ### Design Principles Used
@@ -87,6 +79,7 @@ Expense_Tracker/
 5. Delete All Expenses
 6. Exit
 Choose option (1-6): 2
+
 
 Date         Category        Amount     Description
 ------------------------------------------------------------
